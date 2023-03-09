@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.body{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body{
+    padding: 30px;
+}
+
+h1{
+    font-family:'Brush Script Std', cursive;
+    color: #0c0c0e;
+    font-size: 56px;
+    position: absolute;
+    left: 500px;
+    width:500px ;
+
+}
+img{
+    width: 100px;
+    position: absolute;
+    left: 70px;
+
+}
+.icon-list {
+  padding-left: 0;
+  list-style: none;
+ 
+}
+.icon-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: .25rem;
+  
+}
+.icon-list li::before {
+  display: block;
+  flex-shrink: 0;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: .5rem;
+  content: "";
+ 
+}
+.container img{
+  
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 8px;
+  left: 1rem;
+  
+}
